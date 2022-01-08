@@ -8,6 +8,7 @@ fun main() {
 
     var answer = 1L
     var flag = false
+    
     repeat(n) { i ->
         repeat(m) { j ->
             val g = gcd(aList[i], bList[j])
